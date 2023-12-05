@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5"  name="Test123">
+  <groups>
+  <run>
+  <include name="reg"></include>
+  </run>
+  </groups>
+    <classes>
+      <class name="BankProject.Get_data_from_excel"/>
+      <class name="BankProject.Dropdownhandle"/>
+      <class name="BankProject.TC_FilUpload_003"/>
+      <class name="BankProject.Tc_AddNewCustomer_002"/>
+      <class name="BankProject.TC_Login_001"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
