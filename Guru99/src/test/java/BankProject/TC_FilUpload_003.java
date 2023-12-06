@@ -26,11 +26,6 @@ public class TC_FilUpload_003 extends BaseClass {
 		String projectPath = System.getProperty("user.dir");
         driver.findElement(By.xpath("//input[@class=\"upload_txt\"]")).sendKeys(projectPath+"\\Files\\TopSclData.xlsx");
         Thread.sleep(4000);
-        // int a=45
-		// Manoj changes
-        // Branch created
-        // Branch created123
-// manu
 	}
 
 }
