@@ -40,6 +40,8 @@ public class Admin_Login extends BaseClass{
 		WebElement SideBar = driver.findElement(By.xpath("//div[@class=\"side-nav-content \"]"));
 		web.MouceHover(driver, SideBar);
 		 Thread.sleep(4000);
+		 // Script is completed
+		 // hii
 		 
 	}
 
