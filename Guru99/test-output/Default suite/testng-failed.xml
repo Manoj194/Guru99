@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="BankProject.Tc_AddNewCustomer_002">
+      <class name="BankProject.Dropdownhandle">
         <methods>
+          <include name="DropdownHandle_by_index"/>
           <include name="App_Login"/>
-          <include name="Add_Cust_details"/>
           <include name="setup"/>
           <include name="teardown"/>
         </methods>
-      </class> <!-- BankProject.Tc_AddNewCustomer_002 -->
+      </class> <!-- BankProject.Dropdownhandle -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
