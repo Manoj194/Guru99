@@ -24,7 +24,8 @@ public class BaseClass {
 	public static String Pwd="UqEmUqU";
 	public static WebDriver driver;
 	public static String browser="firefox";
-	public static String Url="https://portal.zinghr.com/2015/pages/authentication/zing.aspx?ccode=testyantra";
+	public static String Url="https://jerry.staging.topschool.co.i/";
+			//"https://portal.zinghr.com/2015/pages/authentication/zing.aspx?ccode=testyantra";
 			//"https://jerry.staging.topschool.co.i/";
 
 	@BeforeClass
