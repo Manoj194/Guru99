@@ -25,7 +25,8 @@ public class BaseClass {
 	public static WebDriver driver;
 	public static String browser="firefox";
 	public static String Url="https://jerry.staging.topschool.co.i/";
-	//public static TopScl_Page TopScl = new TopScl_Page(driver);
+			//"https://portal.zinghr.com/2015/pages/authentication/zing.aspx?ccode=testyantra";
+			//"https://jerry.staging.topschool.co.i/";
 
 	@BeforeClass
 	public void setup() {
@@ -46,10 +47,10 @@ public class BaseClass {
 	@BeforeMethod
 	public void App_Login() {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5000));
-        if(Url.equalsIgnoreCase("https://jerry.staging.topschool.co.in/")) {
+        if(Url.equalsIgnoreCase("https://portal.zinghr.com/2015/pages/authentication/zing.aspx?ccode=testyantra")) {
         	driver.get(Url);
         }
-        else {
+        else{
         	driver.get("https://demo.guru99.com/V1/index.php");
         }
 		driver.manage().window().maximize();
